@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <h1>Enter data to calculate your BMI</h1>
+      </div>
+      <form>
+        <p>
+          <label>Enter your height: </label
+          ><input
+            type="text"
+            id="height"
+            placeholder="Height in cms"
+            autocomplete="off"
+          />
+          cms
+        </p>
+        <p>
+          <label>Enter your weight:</label
+          ><input
+            type="text"
+            id="weight"
+            placeholder="Weight in kgs"
+            autocomplete="off"
+          />
+          kgs
+        </p>
+        <button type="submit">Check BMI</button>
+        <div id="results"></div>
+        <div class="bmi-guide">
+          <h3>BMI Weight Guide</h3>
+          <p>Under Weight = Less than 18.6</p>
+          <p>Normal Range = 18.6 and 24.9</p>
+          <p>Overweight = Greater than 24.9</p>
+        </div>
+      </form>
+    </div>
+    <footer class="footer">
+      <p>Copyright &copy; Vignesh M R - 2020</p>
+    </footer>
+  </body>
+  <script src="main.js"></script>
+</html>

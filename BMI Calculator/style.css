@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Hammersmith One", sans-serif;
+  background-color: #feffb7;
+}
+.container {
+  border: 3px solid #f700ff;
+  background-color: rgb(248, 175, 244);
+  width: 60%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding: 12px;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.heading {
+  margin-top: 1%;
+  margin-bottom: 5%;
+  background-color: #feffb7;
+  border: 3px solid #f700ff;
+  border-radius: 0.5rem;
+  padding: 5px;
+}
+input {
+  margin-bottom: 3%;
+  padding: 8px 8px;
+  border-radius: 1rem;
+  border: none;
+  outline: none;
+}
+button {
+  margin-bottom: 5%;
+  margin-top: 3%;
+  outline: none;
+  border-radius: 1rem;
+  border: 2px solid #008000;
+  background-color: #bef1be;
+  padding: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #8feb8f;
+}
+.bmi-guide {
+  text-transform: uppercase;
+  background-color: #79f0c2;
+  width: 55%;
+  margin-left: 25%;
+  padding: 10px;
+  border: 3px solid #f700ff;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+#results {
+  font-size: 2rem;
+  margin:auto;
+  color:#fd0000;
+}
+.bmi-guide h3 {
+  margin-bottom: 3%;
+}
+.bmi-guide p {
+  margin-bottom: 2%;
+}
+.footer p {
+  margin-top: 7%;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #b4b0b0;
+}
